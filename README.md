@@ -48,5 +48,7 @@ Si la nota es menos de un 5 es suspenso y si la nota es 5 o mayor estás aprobad
 23.Modifica el programa anterior para establecer si la nota es un excelente (8.5 a 10), un 
 notable (>=6.5 -<8.5), satisfactorio (<6.5 -5) o insuficiente (<5). Controla que la nota 
 introducida esté entre 0 y 10. Utilizar elif sin operadores lógicos.
-24.
+24.Corrige los errores del siguiente código y comprueba que se ejecuta correctamente.
+25.Repite el programa número 23 pero en esta ocasión utilizando operadores lógicos.
+
 
