@@ -63,8 +63,12 @@ igual, menor o mayor de 11 caracteres. Utiliza elif.
 31. Asigna a una variable de texto la siguiente frase: A quién madruga Dios ayuda. 
 Comprueba si existen las siguientes palabras mostrando por pantalla la posición de su 
 índice.
-32. Cómo solucionarías con ayuda de métodos String el problema del ejercicio anterior para 
+32.Cómo solucionarías con ayuda de métodos String el problema del ejercicio anterior para 
 no distinguir entre mayúsculas y minúsculas.
+33.Programa un código que permita contar el número de vocales de la siguiente frase: No 
+hay mal que dure cien años.
+34.Corrige los 4 errores o añade el código que necesites para que el siguiente programa se 
+ejecute correctamente.
 
 
 
