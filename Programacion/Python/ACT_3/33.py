@@ -1,3 +1,6 @@
+#Programa un código que permita contar el número de vocales de la siguiente frase: No 
+#hay mal que dure cien años.
+
 var1=input("Introduce una frase:")
 var_a=var1.count("a")
 var_e=var1.count("e")
