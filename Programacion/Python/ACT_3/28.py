@@ -1,3 +1,6 @@
+#Mejora el programa anterior para controlar también la introducción de símbolos. Utiliza 
+#elif.
+
 var1=input("introduce una letra:")
 l=var1.isupper()
 n=var1.isnumeric()
