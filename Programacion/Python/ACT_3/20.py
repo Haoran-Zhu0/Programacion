@@ -1,5 +1,5 @@
 #A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados 
-#numeros entre 0 y 10
+#numeros entre 0 y 10.
 
 var1=int(input("introduce un valor:"))
 var2=int(input("introduce otro valor:"))
