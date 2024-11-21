@@ -72,6 +72,13 @@ ejecute correctamente.
 35.Programa que al introducir un número por teclado permita mostrar ese número de veces tu 
 nombre.
 36.Programa que sume los n primeros números naturales. n Lo introduce el usuario.
+37.Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado 
+o suspendido.
+38. A partir del programa anterior, establece los rangos para que el usuario no pueda introducir 
+notas inferiores a 0 y superiores a 10.
+39.Programa que pida n números y que, tras introducir el último número, debe aparecer por 
+pantalla el número total de positivos, negativos y número de 0.
+
 
 
 
