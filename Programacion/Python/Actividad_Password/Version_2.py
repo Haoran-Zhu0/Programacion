@@ -18,20 +18,20 @@ for contador in range(3):
         es_correcta=False
     for x in var1:
         if x.isnumeric():
-            if '1'<=c<='5':
-                numeros15+=1
-            elif '6<=c<='9':
-                numeros69+=1
+            if '1'<=x<='5':
+                numeros_bajos+=1
+            elif '6'<=x<='9':
+                numeros_altos+=1
         elif x.islower():
             minusculas+=1
         elif x.isupper():
             mayusculas+=1
         elif x in "*_@/&#":
             simbolos+=1
-    if numeros15<2:
+    if numeros_bajos<2:
         print(" La contraseña debe tener al menos 2 números entre 1 y 5.")
         es_correcta=False
-    if numeros69<1:
+    if numeros_altos<1:
         print("La contraseña debe tener al menos 1 número entre 6 y 9.")
         es_correcta=False
     if minusculas<2:
