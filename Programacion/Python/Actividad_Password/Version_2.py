@@ -13,7 +13,7 @@ for contador in range(3):
     numeros_altos=0
     simbolos=0
     es_correcta=True    
-    if len(var1)<6 or len(var1)>8:
+    if len(var1)<=6 or len(var1)>=8:
         print("La contraseña debe tener entre 6 y 8 caracteres.")
         es_correcta=False
     for x in var1:
@@ -29,7 +29,7 @@ for contador in range(3):
         elif x in "*_@/&#":
             simbolos+=1
     if numeros_bajos<2:
-        print(" La contraseña debe tener al menos 2 números entre 1 y 5.")
+        print("La contraseña debe tener al menos 2 números entre 1 y 5.")
         es_correcta=False
     if numeros_altos<1:
         print("La contraseña debe tener al menos 1 número entre 6 y 9.")
