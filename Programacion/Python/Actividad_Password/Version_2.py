@@ -13,39 +13,39 @@ mayusculas=0
 simbolos=0
 es_correcta=True
 for contador in range(3):
-    var1 = input(f"Introduce la contraseña {contador + 1}:")
-    if len(var1) < 6 or len(var1) > 8:
+    var1=input(f"Introduce la contraseña {contador+1}:")
+    if len(var1)<6 or len(var1)>8:
         print("Error: La contraseña debe tener entre 6 y 8 caracteres.")
         es_correcta = False
-    for x in var1:
-        if x.isnumeric():
-            if '1'<=x<='5':
-                numeros+=1
-            elif '6'<=x<='9':
-                numeros+=1
-        elif x.isalpha():
-            if x.islower():
-                minusculas+=1
-            elif x.isupper():
-                mayusculas+=1
-        elif x in "*_@/&#":
-            simbolos+=1
-        else:
-            print(f"Error: El carácter '{x}' no es válido.")
-            es_correcta = False
+for x in var1:
+    if x.isnumeric():
+        if '1'<=x<='5':
+            numeros+=1
+        elif '6'<=x<='9':
+            numeros+=1
+    elif x.isalpha():
+        if x.islower():
+            minusculas+=1
+        elif x.isupper():
+            mayusculas+=1
+    elif x in "*_@/&#":
+        simbolos+=1
+else:
+    print(f"El carácter'{x}'no es válido.")
+    es_correcta=False
     if numeros<3:
-        print("Error: La contraseña debe contener al menos 3 números.")
+        print("La contraseña debe contener al menos 3 números.")
         es_correcta=False
     if minusculas<2:
-        print("Error: La contraseña debe contener al menos 2 letras minúsculas.")
+        print("La contraseña debe contener al menos 2 letras minúsculas.")
         es_correcta=False
     if mayusculas<1:
-        print("Error: La contraseña debe contener al menos 1 letra mayúscula.")
+        print("La contraseña debe contener al menos 1 letra mayúscula.")
         es_correcta=False
     if simbolos<2:
-        print("Error: La contraseña debe contener al menos 2 símbolos (*_@/&#).")
+        print("La contraseña debe contener al menos 2 símbolos (*_@/&#).")
         es_correcta=False
-    if es_correcta=True:
+    if es_correcta:
         print("La contraseña es correcta.")
         correctas+=1
     else:
