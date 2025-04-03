@@ -1,9 +1,14 @@
 #Utilizando listas,crea un programa que te permita determinar si un número es decimal o no. 
 
-var1=["12","12.1","Hola","12.","6.098","6.09a","4.34.2"]
+numero=input("introduce un numero: ")
+lista=numero.split(".")
 
-for x in var1:
-    if '.' in x and x.isnumeric()==False:
-        print("Es un número con decimales")
+if len(lista)!=2:
+    print("no es decimal")
+else:
+    if lista[0].isnumeric() and lista[1].isnumeric():
+        print("es decimal")
     else:
-        print("No es un número con decimales")
+        print("no es decimal")
+if len(lista)>2
+    print("no es un numero con decimales")
